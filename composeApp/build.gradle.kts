@@ -64,6 +64,10 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             implementation(projects.shared)
+            //navigation
+            implementation(libs.navigation.compose)
+            implementation(libs.kotlinx.serialization.json)
+
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
