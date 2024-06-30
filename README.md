@@ -16,3 +16,5 @@ This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop, Ser
   The most important subfolder is `commonMain`. If preferred, you can add code to the platform-specific folders here too.
 
 You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
+
+##
